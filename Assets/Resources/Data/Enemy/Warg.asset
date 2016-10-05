@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b048216fecf702b4cb3188cf33b243e2, type: 3}
+  m_Name: Warg
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - value: 100
+      motion: 0
+    - value: 1
+      motion: 0
+    - value: 1
+      motion: 0
+    - value: 7
+      motion: 0
+    - value: 1
+      motion: 1
+    - value: 0.6
+      motion: 2
+    - value: 0.8
+      motion: 99

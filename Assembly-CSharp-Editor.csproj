@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B664B29B-B887-DBBA-FCE4-5AB4BF70454A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;MOBILE_INPUT;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Assets\2D Assets\Editor\ArrayTools.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\BytesAndOffset.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\CrawledDataUnpacker.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\Crawler.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\HighLevelAPI.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\Inspector.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\LowLevelAPI.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\ManagedHeapExtensions.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\MemoryProfilerWindow.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\PackedManagedObject.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\PlayerPrefsEditor.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\PrimitiveValueReader.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\ShortestPathToRootFinder.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\StringTools.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\TreeMapView.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\Treemap\Group.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\Treemap\ITreemapRenderable.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\Treemap\Item.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\Treemap\Tests\TreemapTests.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\Treemap\Utility.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\TypeTools.cs" />
+     <Compile Include="Assets\Assets\2D Assets\Editor\ZoomArea.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\Editor\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\Editor\InputAxisScrollbarCI.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\AbilityList2_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\AllosaurusData_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\Code_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\Cyclops_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\Dragon_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\Golem_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\ListTest_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\QuestData1_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\Robot_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\SecretQuestList_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\Skelton_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\SkyDragon_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\Troll_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\Warg_importer.cs" />
+     <Compile Include="Assets\Terasurware\Editor\ExcelImporterMaker.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Density\Hill.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Density\InverseHill.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Density\Island.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Surface\EnableStatic.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Textures\DensityNormal.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Textures\FaceNormal.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Textures\FractalAndDensityNormal.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Vegetation\Plants.cs" />
+     <Compile Include="Assets\TinyTerrain\Editor\Vegetation\Vegetation.cs" />
+     <Compile Include="Assets\Warrior Pack Bundle 2 FREE\Elements\Editor\ReviewConfig.cs" />
+     <Compile Include="Assets\Warrior Pack Bundle 2 FREE\Elements\Editor\ReviewWindowEditor.cs" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Earthborn Troll\Shader\Alpha_Texture.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\SkyDragon\ReadMe.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\TinyTerrain\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\LowPolyUnityChan\README_LowPolyUnityChan.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Particle\_SFB_Particle Package 1\Demo &amp; Read Me\SFB_ParticlePackage1_ReadMe.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\SampleAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Particle\Elementals\Readme.txt" />
+     <None Include="Assets\Terasurware\Editor\ExportTemplate.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Terasurware\Editor\ExportTemplate2.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Terasurware\Editor\EntityTemplate.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Terasurware\Editor\EntityTemplate2.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\TinyTerrain\Standard Assets\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\TinyTerrain\README.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\GE Common Assets\Readme.txt" />
+     <None Include="Assets\Particle\Particle Ribbon\readme_Simple_Particle_Ribbon.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\TinyTerrain\Materials\TerrainSurface.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="GETween">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ </Reference>
+ <Reference Include="GUIAnimatorFREE">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Assets/Terasurware/Editor/npoi/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Assets/Terasurware/Editor/npoi/NPOI.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OOXML">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Assets/Terasurware/Editor/npoi/NPOI.OOXML.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OpenXml4Net">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Assets/Terasurware/Editor/npoi/NPOI.OpenXml4Net.dll</HintPath>
+ </Reference>
+ <Reference Include="NPOI.OpenXmlFormats">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Assets/Terasurware/Editor/npoi/NPOI.OpenXmlFormats.dll</HintPath>
+ </Reference>
+ <Reference Include="TinyTerrain">
+ <HintPath>C:/Users/devel/Desktop/作成アプリ/MatrixCode/Assets/TinyTerrain/Editor/TinyTerrain.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D07EECEA-71C9-9945-62D8-75A122B5E2CC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{6C77092D-FEF1-B224-C553-6FBF5D4A0493}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

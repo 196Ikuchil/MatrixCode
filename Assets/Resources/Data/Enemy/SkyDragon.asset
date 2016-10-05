@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b7a6f776f7d184c8c5416aedde0cef, type: 3}
+  m_Name: SkyDragon
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - Name: HP
+      value: 900
+      motion: 0
+    - Name: POWER
+      value: 20
+      motion: 0
+    - Name: DEFENCE
+      value: 5
+      motion: 0
+    - Name: "length\uFF08\u6700\u5F8C\u5C3E\uFF09-1"
+      value: 7
+      motion: 0
+    - Name: Attack1
+      value: 0.7
+      motion: 1
+    - Name: DoubleAttack
+      value: 0.3
+      motion: 2
+    - Name: Magic
+      value: 1.3
+      motion: 99
+  - name: Sheet2
+    list: []
+  - name: Sheet3
+    list: []

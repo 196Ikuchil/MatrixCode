@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E889BBB-7AE0-1BD4-DF61-149E20450884}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="GETween">
+      <HintPath>Assets\GUI Animator\Common\Plugins\GETween.dll</HintPath>
+    </Reference>
+    <Reference Include="GUIAnimatorFREE">
+      <HintPath>Assets\GUI Animator\GUI Animator FREE\Plugins\GUIAnimatorFREE.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MatrixCode.CSharp.Plugins.csproj">
+      <Project>{442E1CB2-6241-0962-3303-5A936E05D2F7}</Project>
+      <Name>MatrixCode.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\EdgeDetectEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Elf\Script\Elf_Manager.cs" />
+    <Compile Include="Assets\Assets\3D Assets\Enemy\Elf\Script\Manager.cs" />
+    <Compile Include="Assets\Assets\Plugins\PlayerPrefsX.cs" />
+    <Compile Include="Assets\Assets\Scripts\AbilityValueRoom\AbilityValueRoom.cs" />
+    <Compile Include="Assets\Assets\Scripts\AbilityValueRoom\AbilityValueViewButton.cs" />
+    <Compile Include="Assets\Assets\Scripts\AbilityValueRoom\MemoPanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\AllosaurusStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\CyclopsStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\DragonStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\DropItem.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\EnemyAnimation.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\EnemyAttackArea.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\EnemyAttackAreaActivator.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\EnemyCtrl.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\EnemyGeneratorCtrl.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\EnemyMove.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\EnemyStatus.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\GolemStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\RobotStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\SearchArea.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\SkeltonStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\SkyDragonStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\TrollStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Enemy\WargStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\FollowCamera.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\GameMasterScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\GameResultGui.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\GameRuleCtrl.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\InputManager.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\LimitedMagicScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\MagicMaster.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\MagicMoveScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\MagicScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\PausePanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\QuestStartLogo.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\TimerTextGUI.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\JaraiScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Plarticle\TargetCursor.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\AttackArea.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\AttackAreaActivator.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\CharaAnimation.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\CharacterHPGUI.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\CharacterMove.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\CharacterSPGUI.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\CharacterStatus.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\CommandPanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\HitArea.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\PlayerAttackAreaActivator.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\PlayerCtrl.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\PlayerStatusInit.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Player\SwordEffect.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\UseSPGUIScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\SaveDataSelectScene\DeleteDataPanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\SaveDataSelectScene\LoadGameDataSelect.cs" />
+    <Compile Include="Assets\Assets\Scripts\SaveDataSelectScene\SaveDataSelectButton.cs" />
+    <Compile Include="Assets\Assets\Scripts\SelectScene\AbilityCheckPanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\SelectScene\CheckPanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\SelectScene\SelectMaster.cs" />
+    <Compile Include="Assets\Assets\Scripts\SelectScene\StageSelectButton.cs" />
+    <Compile Include="Assets\Assets\Scripts\SelectScene\StageSelectPanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\AbilityReader.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\AbilityView.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\GUIMoveManager.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\MatrixCodeReader.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\MatrixCodeTable.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\MatrixOpenPanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\Menu.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\OpenCheckButton.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\PlayerData.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\SaveDataReader.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\SelectDropDown.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\SelectMatrixNum.cs" />
+    <Compile Include="Assets\Assets\Scripts\System\StatusCheckView.cs" />
+    <Compile Include="Assets\Assets\Scripts\TitleScene\TitleSceneCtrl.cs" />
+    <Compile Include="Assets\Credit.cs" />
+    <Compile Include="Assets\DelayMagicBoxCollider.cs" />
+    <Compile Include="Assets\DelayMagicCollider.cs" />
+    <Compile Include="Assets\DelayMagicSphereCollider.cs" />
+    <Compile Include="Assets\FadeManager\Scripts\FadeManager.cs" />
+    <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\CameraController.cs" />
+    <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+    <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+    <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringBone.cs" />
+    <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringManager.cs" />
+    <Compile Include="Assets\MagicCollider.cs" />
+    <Compile Include="Assets\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
+    <Compile Include="Assets\Particle\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
+    <Compile Include="Assets\Particle\Particle Ribbon\Scripts\ReverseNormals.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\SecretStageSelectButton.cs" />
+    <Compile Include="Assets\Terasurware\Classes\AbilityList.cs" />
+    <Compile Include="Assets\Terasurware\Classes\AllosaurusData.cs" />
+    <Compile Include="Assets\Terasurware\Classes\CyclopsData.cs" />
+    <Compile Include="Assets\Terasurware\Classes\DragonData.cs" />
+    <Compile Include="Assets\Terasurware\Classes\GolemData.cs" />
+    <Compile Include="Assets\Terasurware\Classes\MatrixCode.cs" />
+    <Compile Include="Assets\Terasurware\Classes\QuestDataSheet.cs" />
+    <Compile Include="Assets\Terasurware\Classes\RobotData.cs" />
+    <Compile Include="Assets\Terasurware\Classes\SkeltonData.cs" />
+    <Compile Include="Assets\Terasurware\Classes\SkyDragonData.cs" />
+    <Compile Include="Assets\Terasurware\Classes\TestSheet.cs" />
+    <Compile Include="Assets\Terasurware\Classes\TrollData.cs" />
+    <Compile Include="Assets\Terasurware\Classes\WargData.cs" />
+    <Compile Include="Assets\TinyTerrain\Scripts\Rotate.cs" />
+    <Compile Include="Assets\TinyTerrain\Standard Assets\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\TinyTerrain\Standard Assets\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\TinyTerrain\Standard Assets\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\TinyTerrain\Standard Assets\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\TinyTerrain\Standard Assets\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\TinyTerrain\Standard Assets\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\TinyTerrain\Standard Assets\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\TinyTerrain\Standard Assets\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\TouchSeScript.cs" />
+    <Compile Include="Assets\Warrior Pack Bundle 2 FREE\Code\IKHands.cs" />
+    <Compile Include="Assets\Warrior Pack Bundle 2 FREE\Code\SmoothFollow.cs" />
+    <Compile Include="Assets\Warrior Pack Bundle 2 FREE\Code\WarriorAnimationDemoFREE.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Allosaurus\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Earthborn Troll\Shader\Alpha_Texture.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
+    <None Include="Assets\Assets\3D Assets\Enemy\SkyDragon\ReadMe.txt" />
+    <None Include="Assets\GE Common Assets\Readme.txt" />
+    <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
+    <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+    <None Include="Assets\LowPolyUnityChan\README_LowPolyUnityChan.txt" />
+    <None Include="Assets\Particle\Elementals\Readme.txt" />
+    <None Include="Assets\Particle\Particle Ribbon\readme_Simple_Particle_Ribbon.txt" />
+    <None Include="Assets\Particle\_SFB_Particle Package 1\Demo &amp; Read Me\SFB_ParticlePackage1_ReadMe.txt" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+    <None Include="Assets\SampleAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Terasurware\Editor\EntityTemplate.txt" />
+    <None Include="Assets\Terasurware\Editor\EntityTemplate2.txt" />
+    <None Include="Assets\Terasurware\Editor\ExportTemplate.txt" />
+    <None Include="Assets\Terasurware\Editor\ExportTemplate2.txt" />
+    <None Include="Assets\Terasurware\Editor\npoi\NPOI.OOXML.XML" />
+    <None Include="Assets\Terasurware\Editor\npoi\NPOI.OpenXml4Net.XML" />
+    <None Include="Assets\Terasurware\Editor\npoi\NPOI.XML" />
+    <None Include="Assets\TinyTerrain\Materials\TerrainSurface.shader" />
+    <None Include="Assets\TinyTerrain\README.txt" />
+    <None Include="Assets\TinyTerrain\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\TinyTerrain\Standard Assets\Water\Shaders\FXWaterPro.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

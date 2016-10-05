@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2455c10ae357e344192f05a60beeb078, type: 3}
+  m_Name: Troll
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - value: 20
+      motion: 0
+    - value: 20
+      motion: 0
+    - value: 1
+      motion: 0
+    - value: 8
+      motion: 0
+    - value: 0.7
+      motion: 1
+    - value: 1
+      motion: 2
+    - value: 0.9
+      motion: 3
+    - value: 0.2
+      motion: 99
