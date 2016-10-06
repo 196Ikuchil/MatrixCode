@@ -126,7 +126,11 @@
     <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\PausePanel.cs" />
     <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\QuestStartLogo.cs" />
     <Compile Include="Assets\Assets\Scripts\GameScene\GameSystem\TimerTextGUI.cs" />
-    <Compile Include="Assets\Assets\Scripts\GameScene\JaraiScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Magic\DelayMagicBoxCollider.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Magic\DelayMagicCollider.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Magic\DelayMagicSphereCollider.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Magic\JaraiScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameScene\Magic\MagicCollider.cs" />
     <Compile Include="Assets\Assets\Scripts\GameScene\Plarticle\TargetCursor.cs" />
     <Compile Include="Assets\Assets\Scripts\GameScene\Player\AttackArea.cs" />
     <Compile Include="Assets\Assets\Scripts\GameScene\Player\AttackAreaActivator.cs" />
@@ -147,6 +151,7 @@
     <Compile Include="Assets\Assets\Scripts\SaveDataSelectScene\SaveDataSelectButton.cs" />
     <Compile Include="Assets\Assets\Scripts\SelectScene\AbilityCheckPanel.cs" />
     <Compile Include="Assets\Assets\Scripts\SelectScene\CheckPanel.cs" />
+    <Compile Include="Assets\Assets\Scripts\SelectScene\SecretStageSelectButton.cs" />
     <Compile Include="Assets\Assets\Scripts\SelectScene\SelectMaster.cs" />
     <Compile Include="Assets\Assets\Scripts\SelectScene\StageSelectButton.cs" />
     <Compile Include="Assets\Assets\Scripts\SelectScene\StageSelectPanel.cs" />
@@ -163,11 +168,8 @@
     <Compile Include="Assets\Assets\Scripts\System\SelectDropDown.cs" />
     <Compile Include="Assets\Assets\Scripts\System\SelectMatrixNum.cs" />
     <Compile Include="Assets\Assets\Scripts\System\StatusCheckView.cs" />
+    <Compile Include="Assets\Assets\Scripts\TitleScene\Credit.cs" />
     <Compile Include="Assets\Assets\Scripts\TitleScene\TitleSceneCtrl.cs" />
-    <Compile Include="Assets\Credit.cs" />
-    <Compile Include="Assets\DelayMagicBoxCollider.cs" />
-    <Compile Include="Assets\DelayMagicCollider.cs" />
-    <Compile Include="Assets\DelayMagicSphereCollider.cs" />
     <Compile Include="Assets\FadeManager\Scripts\FadeManager.cs" />
     <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\CameraController.cs" />
     <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\IdleChanger.cs" />
@@ -190,7 +192,6 @@
     <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringBone.cs" />
     <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringManager.cs" />
-    <Compile Include="Assets\MagicCollider.cs" />
     <Compile Include="Assets\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
     <Compile Include="Assets\Particle\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
     <Compile Include="Assets\Particle\Particle Ribbon\Scripts\ReverseNormals.cs" />
@@ -207,7 +208,6 @@
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\SecretStageSelectButton.cs" />
     <Compile Include="Assets\Terasurware\Classes\AbilityList.cs" />
     <Compile Include="Assets\Terasurware\Classes\AllosaurusData.cs" />
     <Compile Include="Assets\Terasurware\Classes\CyclopsData.cs" />
