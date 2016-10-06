@@ -31,8 +31,8 @@ public class WargStatusInit : MonoBehaviour {
         else abilityNum = ability1;
     }
     void Start () {
-        status.SetHP((int)wData.sheets[0].list[0].value + 400 * Lv);
-        status.SetPower((int)wData.sheets[0].list[1].value+13 * Lv);
+        status.SetHP((int)wData.sheets[0].list[0].value + 270 * Lv);
+        status.SetPower((int)wData.sheets[0].list[1].value+6 * Lv);
         status.SetDefence((int)wData.sheets[0].list[2].value+1*Lv);
         
         //スキルを保存
