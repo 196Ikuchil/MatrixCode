@@ -15,7 +15,7 @@ MonoBehaviour:
   - name: Sheet1
     list:
     - Name: HP
-      value: 900
+      value: 300
       motion: 0
     - Name: POWER
       value: 20

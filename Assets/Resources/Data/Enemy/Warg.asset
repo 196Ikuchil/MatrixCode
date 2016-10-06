@@ -14,7 +14,7 @@ MonoBehaviour:
   sheets:
   - name: Sheet1
     list:
-    - value: 100
+    - value: 10
       motion: 0
     - value: 1
       motion: 0
