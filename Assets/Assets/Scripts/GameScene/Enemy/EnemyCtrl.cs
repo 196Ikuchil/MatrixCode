@@ -53,7 +53,7 @@ public class EnemyCtrl : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        text = GameObject.Find("DebugDamageView").GetComponent<Text>();
+        //text = GameObject.Find("DebugDamageView").GetComponent<Text>();
         MaxHPText = GameObject.Find("DebugMaxHPView").GetComponent<Text>();
         HPText = GameObject.Find("DebugHPView").GetComponent<Text>();
         status = GetComponent<EnemyStatus>();
@@ -251,7 +251,7 @@ public class EnemyCtrl : MonoBehaviour
         damage = (int)(damage - status.Defence * 0.1);
         status.HP -= (int)(damage*Random.Range(0.9f,1.1f));
 
-        text.text = "敵：" + damage + "ダメージ";
+        //text.text = "敵：" + damage + "ダメージ";
         HPText.text = status.HP.ToString();
         MaxHPText.text = "/" + status.MaxHP.ToString();
         if (status.HP <= 0)

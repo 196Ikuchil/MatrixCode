@@ -11,7 +11,7 @@ public class CharaAnimation : MonoBehaviour
     PlayerCtrl playerctrl;
 	Vector3 prePosition;
 	bool isDown = false;
-	bool attacked = false;
+	public bool attacked = false;
     bool beforeAttack = false;
     bool kaihied = false;
 	
@@ -30,6 +30,7 @@ public class CharaAnimation : MonoBehaviour
 
 	void EndAttack()
 	{
+        Debug.Log("endAttack");
         status.StopSwordEffect();
 		attacked = true;
 	}

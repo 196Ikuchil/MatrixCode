@@ -60,7 +60,7 @@ public class TargetCursor : MonoBehaviour {
 		// エフェクトの位置
 		transform.localPosition =  position + offset;
 
-        Debug.Log((Vector3.Distance(this.transform.position, player.transform.position))+"  "+status.abilityList[status.currentAbilitySelectNumbe].range);
+        //Debug.Log((Vector3.Distance(this.transform.position, player.transform.position))+"  "+status.abilityList[status.currentAbilitySelectNumbe].range);
         //現在レンジ範囲内なら黄色に、自分なら黄緑 残りはデフォルト水色
         if (playerTarget == false) SetColor(new Color(0, 255, 0));
         else if (Vector3.Distance(this.transform.position, player.transform.position) < status.abilityList[status.currentAbilitySelectNumbe].range) SetColor(Color.yellow);

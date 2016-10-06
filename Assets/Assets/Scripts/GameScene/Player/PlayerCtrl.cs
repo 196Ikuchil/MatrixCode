@@ -14,7 +14,7 @@ public class PlayerCtrl : MonoBehaviour
 {
 
     //デバッグ用
-    public Text text;
+   // public Text text;
 
 
 
@@ -146,6 +146,7 @@ public class PlayerCtrl : MonoBehaviour
     }
     void StartReacting()
     {
+        Debug.Log("startRecting");
         SetStateStart();
         status.Reacting = true;
         charaAnimation.SetReactBool(true);
@@ -201,6 +202,7 @@ public class PlayerCtrl : MonoBehaviour
 
     void AttackStart()
     {
+        Debug.Log("AttackStart");
         SetStateStart();
         status.attacking = true;
         
@@ -271,13 +273,17 @@ public class PlayerCtrl : MonoBehaviour
     // 攻撃中の処理.
     void Attacking()
     {
+        
         if (charaAnimation.IsAttacked())
+        {
             ChangeState(State.Walking);
+        }
     }
 
     //あたり判定をなくす
     void StartDodge()
     {
+        Debug.Log("StartDodge");
         SetStateStart();
         dodgingVector = this.transform.forward;
         status.Dodging= true;
@@ -337,7 +343,7 @@ public class PlayerCtrl : MonoBehaviour
             StartCoroutine(camera.ShakeView());//画面の揺れ
         }
         status.HP -= damage;
-        text.text = "プレイヤー:" + damage + "ダメージ"; //TODO
+       // text.text = "プレイヤー:" + damage + "ダメージ"; //TODO
         
         if (status.HP <= 0)
         {
@@ -350,6 +356,7 @@ public class PlayerCtrl : MonoBehaviour
     // ステートが始まる前にステータスを初期化する.
     void SetStateStart()
     {
+        
         status.StopSwordEffect();
         status.attacking = false;
         status.Dodging = false;
