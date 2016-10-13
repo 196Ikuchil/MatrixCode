@@ -16,7 +16,8 @@ public class GolemStatusInit : MonoBehaviour
     int Lv = 1;
 
     int[] ability1 = new int[11] { 83,88,93,111,115,134,148,170,179,188,193};
-    int[] ability2 = new int[13] { 83, 88, 93, 112, 115, 134, 148, 170,171, 180,183, 189, 194 };
+    int[] ability2 = new int[11] { 83, 88, 93, 112, 115, 134, 148,171, 180,183, 193 };
+    int[] ability3 = new int[14] { 83, 88, 93,101, 112, 115, 136, 149, 171, 180, 183, 189, 194,200 };
     //int[] ability3 = new int[6] { 88, 109, 148, 169, 180, 190 };
     int[] abilityNum;//Listの横列の番号-2を指定
 
@@ -26,7 +27,8 @@ public class GolemStatusInit : MonoBehaviour
         gameMaster = FindObjectOfType<GameMasterScript>();
         aReader = FindObjectOfType<AbilityReader>();
         Lv = gameMaster.GetEnemyLV();
-        if (Lv > 40) abilityNum = ability2;
+        if (Lv > 50) abilityNum = ability3;
+        else if (Lv > 40) abilityNum = ability2;
         else if (Lv > 10) abilityNum = ability1;
         else abilityNum = ability1;
     }

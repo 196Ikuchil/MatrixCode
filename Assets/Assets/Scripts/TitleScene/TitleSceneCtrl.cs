@@ -11,7 +11,7 @@ public class TitleSceneCtrl : MonoBehaviour {
     AudioSource decideSource;
     public AudioClip cancel;
     AudioSource cancelSource;
-    string DemoURL = "https://youtu.be/vWtL3y-sB40";
+    string DemoURL = "https://youtu.be/eSm0fBNxCz0";
     void Awake()
     {
         //fpsの設定
