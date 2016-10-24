@@ -342,6 +342,9 @@ public class SaveDataReader : MonoBehaviour {
         bool[] bol = new bool[matrixSize];
         for (int k = 0; k < matrixSize; k++) bol[k] = false;
         SetAllMatrixIsOpenBool(bol);
+        //初めてなら総合の2も初期化
+        if(GetAllMatrixIsOpenBool(2).Length==0)
+            SetAllMatrixIsOpenBool(bol,2);
 
         bool[] bClear = new bool[questNum];
         for (int k = 0; k < questNum; k++) bClear[k] = false;
