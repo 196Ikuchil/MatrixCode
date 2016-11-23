@@ -75,6 +75,7 @@ public class AbilityView : MonoBehaviour {
         saveSeSource = gameObject.AddComponent<AudioSource>();
         saveSeSource.loop = false;
         saveSeSource.clip = saveSeClip;
+		saveSeSource.volume = 0.2f;
     }
 	
 	// Update is called once per frame

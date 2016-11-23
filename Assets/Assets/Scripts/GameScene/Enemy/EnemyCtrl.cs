@@ -252,15 +252,15 @@ public class EnemyCtrl : MonoBehaviour
         damage = (int)(damage - status.Defence * 0.1);
         status.HP -= (int)(damage*Random.Range(0.9f,1.1f));
 
-        //text.text = "敵：" + damage + "ダメージ";
-        HPText.text = status.HP.ToString();
-        MaxHPText.text = "/" + status.MaxHP.ToString();
         if (status.HP <= 0)
         {
             status.HP = 0;
             // 体力０なので死亡
             ChangeState(State.Died);
         }
+		//text.text = "敵：" + damage + "ダメージ";
+		HPText.text = status.HP.ToString();
+		MaxHPText.text = "/" + status.MaxHP.ToString();
     }
 
     // ステートが始まる前にステータスを初期化する.
