@@ -9,8 +9,8 @@ public class SaveDataReader : MonoBehaviour {
 
     //Player初期値（デフォルトで設定する）
     int dHP = 100;
-    int dPOWER = 10;
-    int dMPOWER = 10;
+    int dPOWER = 30;
+    int dMPOWER = 20;
     int dDEF = 10;
     int dSP = 100;
     int dSPREC = 1;

@@ -27,7 +27,7 @@ MonoBehaviour:
       range: 10
     - Name: "\u305F\u305F\u304B\u3046"
       id: 2
-      Attack: 0.4
+      Attack: 0.8
       Sp: 5
       benefit: 0
       value: 1

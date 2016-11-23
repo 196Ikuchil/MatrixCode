@@ -69,6 +69,7 @@ public class EnemyCtrl : MonoBehaviour
         damageSeAudio = gameObject.AddComponent<AudioSource>();
         damageSeAudio.clip = damageSeClip;
         damageSeAudio.loop = false;
+		damageSeAudio.volume = 0.05f;
     }
 
     // Update is called once per frame

@@ -84,15 +84,19 @@ public class PlayerCtrl : MonoBehaviour
         damageSeAudio = gameObject.AddComponent<AudioSource>();
         damageSeAudio.clip = damageSeClip;
         damageSeAudio.loop = false;
+		damageSeAudio.volume=0.2f;
         magicSeAudio = gameObject.AddComponent<AudioSource>();
         magicSeAudio.clip = magicSeClip;
         magicSeAudio.loop = false;
+		magicSeAudio.volume = 0.2f;
         abilitySeAudio = gameObject.AddComponent<AudioSource>();
         abilitySeAudio.clip = abilitySeClip;
         abilitySeAudio.loop = false;
+		abilitySeAudio.volume = 0.2f;
         ability2SeAudio = gameObject.AddComponent<AudioSource>();
         ability2SeAudio.clip = abilitySeClip;
         ability2SeAudio.loop = false;
+		ability2SeAudio.volume = 0.2f;
 
         ReactLine = status.MaxHP * ReactLine;
     }

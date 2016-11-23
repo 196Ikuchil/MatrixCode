@@ -7,10 +7,8 @@ public class TitleSceneCtrl : MonoBehaviour {
     public GameObject panel;
     public GameObject credit;
     public GameObject canvas;
-    public AudioClip decide;
-    AudioSource decideSource;
-    public AudioClip cancel;
-    AudioSource cancelSource;
+    public AudioSource decideSource;
+    public AudioSource cancelSource;
     string DemoURL = "https://youtu.be/eSm0fBNxCz0";
     void Awake()
     {
@@ -25,13 +23,6 @@ public class TitleSceneCtrl : MonoBehaviour {
     }
 	// Use this for initialization
 	void Start () {
-        decideSource = gameObject.AddComponent<AudioSource>();
-        decideSource.clip = decide;
-        decideSource.loop = false;
-        cancelSource = gameObject.AddComponent<AudioSource>();
-        cancelSource.clip = cancel;
-        cancelSource.loop = false;
-
     }
 	
 	// Update is called once per frame

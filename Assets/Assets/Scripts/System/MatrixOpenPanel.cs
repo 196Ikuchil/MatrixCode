@@ -86,6 +86,7 @@ public class MatrixOpenPanel : MonoBehaviour {
         decideSeSource = gameObject.AddComponent<AudioSource>();
         decideSeSource.clip = decideSeClip;
         decideSeSource.loop = false;
+		decideSeSource.volume = 0.1f;
 	}
     public void DecideSePlay()
     {

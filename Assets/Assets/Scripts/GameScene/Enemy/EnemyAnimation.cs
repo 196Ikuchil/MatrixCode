@@ -48,6 +48,7 @@ public class EnemyAnimation : MonoBehaviour
         magicSeSource = gameObject.AddComponent<AudioSource>();
         magicSeSource.clip= magicSeClip;
         magicSeSource.loop = false;
+		magicSeSource.volume = 0.2f;
     }
 
     void Update()

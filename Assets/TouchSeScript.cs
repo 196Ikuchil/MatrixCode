@@ -3,13 +3,12 @@ using System.Collections;
 
 public class TouchSeScript : MonoBehaviour {
 
-    public AudioClip clickSeClip;
-    AudioSource clickSeSource;
+    public AudioSource clickSeSource;
 	// Use this for initialization
 	void Start () {
-        clickSeSource = gameObject.AddComponent<AudioSource>();
-        clickSeSource.clip = clickSeClip;
-        clickSeSource.loop = false;
+       //clickSeSource = gameObject.AddComponent<AudioSource>();
+        //clickSeSource.clip = clickSeClip;
+        //clickSeSource.loop = false;
 	}
 	
 	// Update is called once per frame

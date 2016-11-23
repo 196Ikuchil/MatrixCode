@@ -2,13 +2,9 @@
 using System.Collections;
 
 public class QuestStartLogo : MonoBehaviour {
-    AudioSource startSeSource;
-    public AudioClip startAudioSeClip;
+    public AudioSource startSeSource;
 	// Use this for initialization
 	IEnumerator Start () {
-        startSeSource = gameObject.AddComponent<AudioSource>();
-        startSeSource.clip = startAudioSeClip;
-        startSeSource.loop=false;
 
         startSeSource.Play();
         yield return new WaitForSeconds(1.5f);

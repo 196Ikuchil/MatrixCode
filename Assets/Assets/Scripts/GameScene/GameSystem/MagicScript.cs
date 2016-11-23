@@ -76,6 +76,7 @@ public class MagicScript : MonoBehaviour {
         effectSeSource = gameObject.AddComponent<AudioSource>();
         effectSeSource.clip = effectSeClip;
         effectSeSource.loop = this.loop;
+		effectSeSource.volume = 0.1f;
         yield return new WaitForSeconds(SeStartDelay);
         effectSeSource.Play(); 
     }

@@ -18,6 +18,7 @@ public class EnemyAttackAreaActivator : MonoBehaviour
         attackSeAudio = gameObject.AddComponent<AudioSource>();
         attackSeAudio.clip = attackSeClip;
         attackSeAudio.loop = false;
+		attackSeAudio.volume=0.2f;
 
         for (int attackAreaCnt = 0; attackAreaCnt < attackAreas.Length; attackAreaCnt++)
         {

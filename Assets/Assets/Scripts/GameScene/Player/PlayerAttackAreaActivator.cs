@@ -60,6 +60,7 @@ public class PlayerAttackAreaActivator : MonoBehaviour
         dodgeSeAudio = gameObject.AddComponent<AudioSource>();
         dodgeSeAudio.clip = dodgeSeClip;
         dodgeSeAudio.loop = false;
+		dodgeSeAudio.volume = 0.1f;
 
     }
 

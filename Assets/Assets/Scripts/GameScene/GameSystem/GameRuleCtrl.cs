@@ -15,12 +15,9 @@ public class GameRuleCtrl : MonoBehaviour {
 
     int killAmount = 100;
     //オーディオ
-    public AudioClip clearSeClip;
-    AudioSource clearSeAudio;
-    public AudioClip gOverSeClip;
-    AudioSource gOverSeAudio;
-    public AudioClip finishSeClip;
-    AudioSource finishSeSource;
+    public AudioSource clearSeAudio;
+    public AudioSource gOverSeAudio;
+    public AudioSource finishSeSource;
 
     public AudioSource battleBGM;
 
@@ -43,16 +40,7 @@ public class GameRuleCtrl : MonoBehaviour {
     void Start()
     {
         pData = PlayerData.Instance;
-        //オーディオ
-        clearSeAudio = gameObject.AddComponent<AudioSource>();
-        clearSeAudio.loop = false;
-        clearSeAudio.clip = clearSeClip;
-        gOverSeAudio = gameObject.AddComponent<AudioSource>();
-        gOverSeAudio.loop = false;
-        gOverSeAudio.clip = gOverSeClip;
-        finishSeSource = gameObject.AddComponent<AudioSource>();
-        finishSeSource.clip = finishSeClip;
-        finishSeSource.loop = false;
+
     }
 
 	void Update()

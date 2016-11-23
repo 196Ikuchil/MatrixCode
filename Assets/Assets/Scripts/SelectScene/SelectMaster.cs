@@ -29,8 +29,7 @@ public class SelectMaster : MonoBehaviour {
     QuestDataSheet.Sheet questData;
     QuestDataSheet.Sheet secretQuestData;
 
-    public AudioClip decideSe;
-    AudioSource decideSeSource;
+    public AudioSource decideSeSource;
 
     PlayerData playerData;
      void Awake()
@@ -86,10 +85,6 @@ public class SelectMaster : MonoBehaviour {
                 secretSelectPanels[i].GetComponent<StageSelectPanel>().SetPanel(secretQuestData.list[i].name, secretQuestData.list[i].enemy, secretQuestData.list[i].killAmount.ToString(), secretQuestData.list[i].memo, b2[i]);
             }
         }
-        //オーディオ
-        decideSeSource = gameObject.AddComponent<AudioSource>();
-        decideSeSource.clip =decideSe ;
-        decideSeSource.loop = false;
     }
 	
 	// Update is called once per frame
