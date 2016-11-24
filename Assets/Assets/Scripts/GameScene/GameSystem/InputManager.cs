@@ -15,7 +15,6 @@ public class InputManager : MonoBehaviour {
     public CommandPanel cPanel;
     public FollowCamera fCamera;
     public GameMasterScript gameMaster;
-
 	bool moved = false;
 	
     void Start()

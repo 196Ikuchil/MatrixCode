@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class GameMasterScript : MonoBehaviour {
-
     static int QUESTDATANUMBER = 0; //１個目のシート
 
     public GameObject gameRule;
@@ -15,7 +14,7 @@ public class GameMasterScript : MonoBehaviour {
     public GameObject enemyGenePrefab;
     GameObject enemyGene;
     public GameObject pausePanel; //ポーズ画面
-
+    
     //今回のクエストの仕様
     int questNubner = 0;
     string enemy = "Warg";      //敵の種類

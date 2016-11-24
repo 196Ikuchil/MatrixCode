@@ -9,7 +9,7 @@ public class GameResultGui : MonoBehaviour
 	public GameObject gameOverImage;
 	public GameObject gameClearImage;
     bool endFinish=false;
-
+    
 	void Awake()
 	{
 		gameRuleCtrl = GameObject.FindObjectOfType(typeof(GameRuleCtrl)) as GameRuleCtrl;
