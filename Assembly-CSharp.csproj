@@ -150,7 +150,6 @@
      <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringBone.cs" />
      <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringCollider.cs" />
      <Compile Include="Assets\LowPolyUnityChan\Scripts\SpringManager.cs" />
-     <Compile Include="Assets\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
      <Compile Include="Assets\Particle\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
      <Compile Include="Assets\Particle\Particle Ribbon\Scripts\ReverseNormals.cs" />
      <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
