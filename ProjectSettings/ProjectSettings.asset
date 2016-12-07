@@ -95,7 +95,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: staff196.children.MatrixCode
-  bundleVersion: "1.1.\b\b7"
+  bundleVersion: "1.1.\b\b8"
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   xboxOneDisableKinectGpuReservation: 0
@@ -109,7 +109,7 @@ PlayerSettings:
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
-  iPhoneBuildNumber: 1.1.7
+  iPhoneBuildNumber: 1.1.8
   ForceInternetPermission: 0
   ForceSDCardPermission: 0
   CreateWallpaper: 0
